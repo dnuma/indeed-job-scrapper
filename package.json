@@ -1,7 +1,7 @@
 {
   "name": "web-scrapper",
   "version": "1.0.0",
-  "description": "This repository contains web scrappers for different job boards, using Playwright",
+  "description": "This repository contains web scrapers for different job boards, using Playwright",
   "devDependencies": {
     "@playwright/test": "^1.43.1",
     "@types/node": "^20.10.5"
@@ -13,5 +13,7 @@
   },
   "scripts": {
     "test": "npx playwright test --project=chromium --headed --workers=1 -g"
-  }
+  },
+  "author": "David Numa | Github: dnuma",
+  "license": "GPL-3.0-or-later"
 }
